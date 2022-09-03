@@ -1,10 +1,13 @@
+import CartWidget from './components/cartWidget/CartWidget';
+import ItemListContainer from './components/itemListContainer/ItemListContainer';
 import { NavBar } from './components/navbar/NavBar';
 
 function App() {
 
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar />
+      <ItemListContainer greeting="Bienvenido Joaquín"></ItemListContainer>
     </>
   );
 }
